@@ -1,28 +1,16 @@
 {
   "name": "eleventy-bragdoc",
   "version": "1.0.0",
-  "description": "Eleventy theme based on Bragdoc by Jonny Burch and the team at Progression.app",
+  "description": "wommy fork of github.com/emilyyleung/eleventy-bragdoc",
   "main": "index.js",
-  "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
+  "repository": "git@github.com:wommy/eleventy-bragdoc.git",
+  "author": "wommy <tom@technomad.media>",
+  "license": "MIT",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --incremental"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
-  },
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
-    "deploy": "gh-pages -d public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/emilyyleung/eleventy-bragdoc.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/emilyyleung/eleventy-bragdoc/issues"
-  },
-  "homepage": "/"
+    "@11ty/eleventy": "^1.0.0-beta.8"
+  }
 }

@@ -4,8 +4,10 @@
   "url": "https://emilyyleung.github.io",
   "baseUrl": "/eleventy-bragdoc/",
   "author": {
-    "handle": "@emily_y_leung",
-    "name": "Emily Y Leung"
+    "name": "Emily Y Leung",
+    "role": "Computational Designer",
+    "github": "emilyyleung",
+    "twitter": "emily_y_leung"
   },
   "images": {
     "twitter": "https://i.imgur.com/ewfT3Xg.jpg"

@@ -1,28 +1,28 @@
-<meta name="author" content="{{ site.author.name }}">
-<meta name="description" content="{{ site.description }}">
-<meta property="og:site_name" content="{{ site.author.name }} / {{ site.name }}">
+<meta name="author" content="{{ data.author.name }}" />
+<meta name="description" content="{{ data.description }}" />
+<meta property="og:site_name" content="{{ data.author.name }} / {{ data.name }}" />
 
 <!-- HTML Meta Tags -->
-<meta name="description" content="{{ site.description }}">
+<meta name="description" content="{{ data.description }}" />
 
 <!-- Google / Search Engine Tags -->
-<meta itemprop="name" content="{{ site.author.name }} / {{ site.name }}">
-<meta itemprop="description" content="{{ site.description }}">
-<meta itemprop="image" content="{{ site.images.twitter }}">
+<meta itemprop="name" content="{{ data.author.name }} / {{ data.name }}" />
+<meta itemprop="description" content="{{ data.description }}" />
+<meta itemprop="image" content="{{ data.author.twitter.image }}" />
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="{{ site.url }}{{ site.baseUrl }}">
-<meta property="og:type" content={{ pagetype }}>
-<meta property="og:title" content="{{ site.author.name }} / {{ site.name }}">
-<meta property="og:description" content="{{ site.description }}">
-<meta property="og:image" content="{{ site.images.twitter }}">
+<meta property="og:url" content="{{ data.url }}{{ data.baseUrl }}" />
+<meta property="og:type" content={{ pagetype }} />
+<meta property="og:title" content="{{ data.author.name }} / {{ data.name }}" />
+<meta property="og:description" content="{{ data.description }}" />
+<meta property="og:image" content="{{ data.author.twitter.image }}" />
 
 <!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ site.author.name }} / {{ site.name }}">
-<meta name="twitter:description" content="{{ site.description }}">
-<meta name="twitter:image" content="{{ site.images.twitter }}">
-<meta name="twitter:image:alt" content="{{ site.author.name }}">
-<meta name="twitter:site" content="{{ site.author.handle }}">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ data.author.name }} / {{ data.name }}" />
+<meta name="twitter:description" content="{{ data.description }}" />
+<meta name="twitter:image" content="{{ data.author.twitter.image }}" />
+<meta name="twitter:image:alt" content="{{ data.author.name }}" />
+<meta name="twitter:site" content="{{ data.author.twitter.handle }}" />
 
 <meta name="pinterest-rich-pin" content="false" />

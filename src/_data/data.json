@@ -7,9 +7,9 @@
     "name": "Emily Y Leung",
     "role": "Computational Designer",
     "github": "emilyyleung",
-    "twitter": "emily_y_leung"
-  },
-  "images": {
-    "twitter": "https://i.imgur.com/ewfT3Xg.jpg"
+    "twitter": {
+      "handle": "emily_y_leung",
+      "image": "https://i.imgur.com/ewfT3Xg.jpg"
+    }
   }
 }

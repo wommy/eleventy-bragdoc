@@ -4,11 +4,15 @@ layout: "layouts/base.njk"
 
 <div class="bragdoc__section" id="bragdoc__section">
     
-    {% include 'partials/site-head.html' %}
+    <h1 class="bragdoc__header">{{ data.name }}</h1>
 
     <div class="bragdoc__container">
         
-        {% include 'partials/bragdoc-profile.njk' %}
+        <div class="bragdoc__profile">
+            <img class="bragdoc__photo" src="{{ '/images/profile_picture.jpg' | url }}">
+            <h1 class="bragdoc__name">{{ data.author.name }}</h1>
+            <div class="role">{{ data.author.role }}</div>
+        </div>
 
     	{% for post in collections.posts | reverse %}
 
@@ -22,6 +26,9 @@ layout: "layouts/base.njk"
 
     </div>
 
-    {% include 'partials/site-foot.html' %}
+    <footer>
+        <div><a target="_blank" href="https://www.bragdocs.com/">Bragdocs</a> inspired theme built with <a target="_blank" href="https://www.11ty.dev/">11ty</a></div>
+        <div>Made with ♥ by <a target="_blank" href="{{ data.url }}">{{ data.author.name }}</a></div>
+    </footer>
 
 </div>

@@ -1,0 +1,7 @@
+.flow > * + * {
+	margin-top: --flow-space, 1rem;
+}
+
+.m-auto {
+	margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+:root {
+	--logo: black;
+	--name: black;
+	--entry-title: black;
+	--date: #BDBDBD;
+	--text: #676a6c;
+	--entry-line: #f1f1f1;
+	--entry-circle: #ddd;
+	--background: white;
+	--text-code: grey;
+	--code-block: rgba(0,0,0,0.05);
+	--link-text: #676a6c;
+	--link-hover: orange;
+	--quote-block-edge: rgba(255, 165, 0, 0.5);
+	--quote-block-text: #676a6c;
+	--table-border: #676a6c;
+	--footer: #BDBDBD;
+	--tag: #BDBDBD;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--logo: #FFF;
+		--name: #FFF;
+		--entry-title: #dedede;
+		--date: rgba(255,255,255,0.3);
+		--text: #999999;
+		--entry-line: rgba(255,255,255,0.2);
+		--entry-circle: rgba(255,255,255,0.3);
+		--background: #121212;
+		--code-text: rgba(255,255,255,0.5);
+		--code-block: rgba(255,255,255,0.1);
+		--link-text: rgba(255,255,255,0.5);
+		--link-hover: orange;
+		--quote-block-edge: rgb(255, 165, 0);
+		--quote-block-text: rgba(255, 165, 0,0.5);
+		--table-border: #999999;
+		--footer: rgba(255,255,255,0.3);
+		--tag: rgba(255,255,255,0.3);
+	}
+}
